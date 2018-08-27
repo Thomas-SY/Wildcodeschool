@@ -29,18 +29,19 @@
 
 #heros h2{
   width: 120px;
+  display: block;
   position:relative;
   text-align: center;
-  top: -85px;
+  bottom: 80px;
   left: 8px;
   color: white;
   font-size: 20px;
   z-index: 1;
 }
 
-#heros h2:hover{
-  top: -45px;
-  font-size: 14px;
+#heros img:hover ~ h2{
+  bottom: 40px;
+  font-size: 10px;
 }
 
 #heros img:hover{
