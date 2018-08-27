@@ -1,23 +1,46 @@
+#hero{
+  position:relative;
+}
+
+
 #heros img{
+  position:relative;
   opacity: 0.6;
 }
 
 #heros .reward{
   width: 120px;
+  display: block;
+  position:relative;
   border-style: solid;
   border-radius: 5px;
   background-color: white;
   border-color: white;
-  position:relative;
   top:65px;
   left: 8px;
   text-align: center;
-  opacity: 0.9;
+  opacity: 0.8;
   z-index: 1;
 }
 
 #heros .reward span{
   color: orangered
+}
+
+#heros h2{
+  width: 120px;
+  position:relative;
+  text-align: center;
+  top: -85px;
+  left: 8px;
+  color: white;
+  font-size: 20px;
+  z-index: 1;
+}
+
+#heros h2:hover{
+  top: -45px;
+  font-size: 14px;
 }
 
 #heros img:hover{
@@ -27,5 +50,4 @@
 
 #heros .reward:hover{
   opacity: 0;
-  z-index: -1;
 }
