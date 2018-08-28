@@ -1,0 +1,110 @@
+#box{
+  margin-top: 5%;
+}
+
+#noir{
+  background-color: black;
+  height: 100px;
+  margin-top: 0.2%;
+  margin-left: 0.2%;
+  margin-right: 0.2%;
+  margin-bottom: 0.2%;
+}
+
+#orange{
+  background-color: orange;
+  height: 100px;
+  margin-top: 0.2%;
+  margin-left: 0.2%;
+  margin-right: 0.2%;
+  margin-bottom: 0.2%;
+}
+
+#jaune{
+  background-color: yellow;
+  height: 100px;
+  margin-top: 0.2%;
+  margin-left: 0.2%;
+  margin-right: 0.2%;
+  margin-bottom: 0.2%;
+}
+
+#blanc{
+  height: 100px;
+  margin-top: 0.2%;
+  margin-left: 0.2%;
+  margin-right: 0.2%;
+  margin-bottom: 0.2%;
+}
+
+@media screen and (min-width: 320px) {
+  #noir{
+    height: 25px;
+  }
+
+  #orange{
+    height: 25px;
+  }
+
+  #jaune{
+    height: 25px;
+  }
+
+  #blanc{
+    height: 25px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  #noir{
+    height: 30px;
+  }
+
+  #orange{
+    height: 30px;
+  }
+
+  #jaune{
+    height: 30px;
+  }
+
+  #blanc{
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  #noir{
+    height: 50px;
+  }
+
+  #orange{
+    height: 50px;
+  }
+
+  #jaune{
+    height: 50px;
+  }
+
+  #blanc{
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #noir{
+    height: 80px;
+  }
+
+  #orange{
+    height: 80px;
+  }
+
+  #jaune{
+    height: 80px;
+  }
+
+  #blanc{
+    height: 80px;
+  }
+}
