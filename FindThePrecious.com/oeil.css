@@ -4,107 +4,115 @@
 
 #noir{
   background-color: black;
+  width: 100px;
   height: 100px;
-  margin-top: 0.2%;
-  margin-left: 0.2%;
-  margin-right: 0.2%;
-  margin-bottom: 0.2%;
 }
 
 #orange{
   background-color: orange;
+  width: 100px;
   height: 100px;
-  margin-top: 0.2%;
-  margin-left: 0.2%;
-  margin-right: 0.2%;
-  margin-bottom: 0.2%;
 }
 
 #jaune{
   background-color: yellow;
+  width: 100px;
   height: 100px;
-  margin-top: 0.2%;
-  margin-left: 0.2%;
-  margin-right: 0.2%;
-  margin-bottom: 0.2%;
 }
 
 #blanc{
+  width: 100px;
   height: 100px;
-  margin-top: 0.2%;
-  margin-left: 0.2%;
-  margin-right: 0.2%;
-  margin-bottom: 0.2%;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 300px) {
   #noir{
+    width: 25px;
     height: 25px;
+    padding: 0px;
   }
 
   #orange{
+    width: 25px;
     height: 25px;
+    padding: 0px;
   }
 
   #jaune{
+    width: 25px;
     height: 25px;
+    padding: 0px;
   }
 
   #blanc{
+    width: 25px;
     height: 25px;
+    padding: 0px;
   }
 }
 
 @media screen and (min-width: 480px) {
   #noir{
+    width: 30px;
     height: 30px;
   }
 
   #orange{
+    width: 30px;
     height: 30px;
   }
 
   #jaune{
+    width: 30px;
     height: 30px;
   }
 
-  #blanc{
+  #blanc{8
+    width: 30px;
     height: 30px;
   }
 }
 
 @media screen and (min-width: 720px) {
   #noir{
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
 
   #orange{
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
 
   #jaune{
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
 
   #blanc{
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   #noir{
-    height: 80px;
+    width: 90px;
+    height: 90px;
   }
 
   #orange{
-    height: 80px;
+    width: 90px;
+    height: 90px;
   }
 
   #jaune{
-    height: 80px;
+    width: 90px;
+    height: 90px;
   }
 
   #blanc{
-    height: 80px;
+    width: 90px;
+    height: 90px;
   }
 }
